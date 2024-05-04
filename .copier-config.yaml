@@ -1,0 +1,50 @@
+# Changes here will be overwritten by Copier; do NOT edit manually
+_commit: v0.14.3
+_src_path: gh:entelecheia/hyperfast-python-template
+author: Young Joon Lee
+build_and_release: true
+code_template_answers_file: .copier-hyfi-config.yaml
+code_template_source: gh:entelecheia/hyfi-template
+codecov_graph_token: rdfiKAmEr8
+copyright_year: 2024
+documentaion_tool: jupyter-book
+documentation_url: https://hyfi-chain.entelecheia.ai
+email: entelecheia@hotmail.com
+favicon_path: https://assets.entelecheia.ai/favicon.png
+friendly_name: HyFI-Chain
+github_repo_name: hyfi-chain
+github_username: entelecheia
+google_analytics_id: G-VMN7QWCMSV
+logo_path: ''
+main_branch: main
+open_link: false
+package_name: hychain
+package_scripts:
+- hychain = 'hychain.__cli__:main'
+poe_task_files:
+- .tasks.toml
+- .tasks-extra.toml
+project_description: 'HyFI-Chain is a wrapper library that integrates the language
+    model chaining capabilities of LangChain with the HyFI (Hydra Fast Interface)
+    framework. It enables developers to build robust, scalable, and maintainable natural
+    language processing (NLP) applications with ease.
+
+    By combining the power of LangChain''s flexible language model chaining with HyFI''s
+    streamlined configuration and execution capabilities, HyFI-Chain simplifies the
+    development process and allows developers to focus on the core logic of their
+    NLP applications.
+
+    HyFI-Chain inherits the scaling capabilities of HyFI, enabling effortless scaling
+    of NLP applications to handle larger workloads. It provides a solid foundation
+    for exploring the possibilities of language model chaining and unlocking the potential
+    of NLP in various domains.'
+project_license: MIT
+project_name: hyfi-chain
+project_short_description: A wrapper library integrating LangChain's language model
+    chaining with HyFI framework for building robust, scalable, and maintainable NLP
+    applications.
+upload_to_release: true
+upload_to_repository: true
+use_launch_buttons: true
+use_source_code_skeleton: true
+
